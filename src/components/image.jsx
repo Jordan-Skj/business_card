@@ -1,7 +1,8 @@
+import image from "./assets/profile.webp"
 export function Image() {
     return (
 		  <div className="photo">
-    		  <img src="../src/profile.webp" alt="" />
+    		  <img src={image} alt="" />
     	  </div>
 	)
 }
